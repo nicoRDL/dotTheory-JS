@@ -1,4 +1,4 @@
-Repository for all JavaScript training track requirements and code.
+Repository for all JS training track requirements and code.
 
 -- Nicolai Lee --
   - Jr Fe Dev -
