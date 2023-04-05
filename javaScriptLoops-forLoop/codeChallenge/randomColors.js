@@ -5,11 +5,10 @@ let blue;
 let randomRGB;
 
 const randomNumber = () => {
-  let num = Math.floor(Math.random() * 256);
-  return num;
+  return Math.floor(Math.random() * 256);
 }
 
-for (let count=1; count <= 10; count++) {
+for (let count = 1; count <= 10; count++) {
   red = randomNumber();
   green = randomNumber();
   blue = randomNumber();
