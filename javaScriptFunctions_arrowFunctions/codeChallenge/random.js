@@ -1,5 +1,5 @@
-function generateRandomNumber (high, low) {
-  if(high > low) {
+function generateRandomNumber( high, low ) {
+  if (high > low) {
     const randomNum = Math.floor(Math.random() * (high - low + 1)) + low;
     return randomNum;
   } else {
