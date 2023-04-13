@@ -1,8 +1,7 @@
-let message = "supercalifragilisticexpialidocious";
-message = message.length;
+const messageCharCount = "supercalifragilisticexpialidocious".length;
 
-for (let i = 1; i < message; i++) {
-  if (i === message / 2) {
+for (let i = 1; i < messageCharCount; i++) {
+  if (i === messageCharCount / 2) {
     console.log('The loop has terminated...');
     break;
   }
