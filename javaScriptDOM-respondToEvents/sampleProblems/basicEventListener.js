@@ -1,5 +1,5 @@
-var warning = document.getElementById("warning");
-var button = document.getElementById('makeItRed');
+const warning = document.getElementById("warning");
+const button = document.getElementById('makeItRed');
 
 button.addEventListener('click', () => {
   document.getElementById('warning').style.backgroundColor = 'red';
