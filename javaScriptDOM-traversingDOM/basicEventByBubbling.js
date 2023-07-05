@@ -1,4 +1,4 @@
-let section = document.getElementsByTagName('section')[0];
+const section = document.getElementsByTagName('section')[0];
 
 section.addEventListener('click', (e) => {
   if(e.target.tagName === 'INPUT') {
