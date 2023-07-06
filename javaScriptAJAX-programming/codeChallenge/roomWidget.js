@@ -1,4 +1,3 @@
-console.log("Got JS");
 let getRooms =  new XMLHttpRequest();
 
 getRooms.onreadystatechange = function () {
