@@ -17,10 +17,10 @@ let correctTally = 0;
 */
 
 for ( let i = 0; i < quizQuestions.length; i++ ) {
-  let showQuestion = quizQuestions[i][0];
-  let getAnswer = quizQuestions[i][1];
+  const showQuestion = quizQuestions[i][0];
+  const getAnswer = quizQuestions[i][1];
 
-  let userAnswer = prompt(showQuestion);
+  const userAnswer = prompt(showQuestion);
 
   if ( userAnswer.toLowerCase() === getAnswer ) {
     correctTally++;
