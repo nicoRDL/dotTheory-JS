@@ -14,9 +14,9 @@ class Student {
     switch(true) {
       case getCredit > 90:
         return 'Senior';
-      case getCredit <= 90 && getCredit > 60:
+      case getCredit > 60:
         return 'Junior';
-      case getCredit <= 60 && getCredit > 30:
+      case getCredit > 30:
         return 'Sophomore';
       default:
         return 'Freshman';
